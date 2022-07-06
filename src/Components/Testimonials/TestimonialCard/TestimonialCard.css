@@ -66,3 +66,22 @@ figure.snip1390 .profile {
   margin-bottom: 10px;
   border: solid 5px #A6A57A;
 }
+
+
+@media screen and (max-width:720px) {
+  figure.snip1390 {
+    padding: 10px;
+    height: 490px;
+    margin-right: 0;
+  }
+
+  figure.snip1390 blockquote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    height: 264px;
+    
+  }
+  
+}

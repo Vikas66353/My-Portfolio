@@ -160,3 +160,22 @@ h1 {
         display: none;
     }
 }
+
+@media only screen and (max-width:720px){
+    .homeImg{
+        position: relative;
+        top: 9%;
+        right: 2%;
+    }
+    .homeLeft{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .introText{
+        position: absolute;
+        left: 12%;
+    }
+}
