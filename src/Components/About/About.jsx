@@ -21,8 +21,6 @@ const About = () => {
           </div>
           <div className="aboutStatus">
             <DataCard />
-            <DataCard />
-            <DataCard />
           </div>
           <div className="aboutDetails">
             <div className="aboutTitle">

@@ -26,7 +26,7 @@
     width: 140px;
 }
 
-@media only screen and (max-width:720px){
+@media only screen and (max-width:412px){
     .dataCard{
         display: flex;
         flex-direction: column;

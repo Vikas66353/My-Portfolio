@@ -84,3 +84,29 @@
 }
   
 }
+
+@media only screen and (max-width:412px){
+  .mainWorkCard{
+    width: 80vw;
+    height: 20vh;
+  }
+  .workDemoImg{
+    border-left:0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 0px;
+  }
+  .workDetails{
+    border-radius: 0;
+    height:500px;
+  }
+  .workDesc{
+    border-top-right-radius: 20px;
+  }
+  
+  .demoImg{
+    height: 260px;
+  }
+    
+  }
+  

@@ -123,7 +123,7 @@ h1 {
     flex: 6;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 }
 
 .homeImg{
@@ -161,21 +161,38 @@ h1 {
     }
 }
 
-@media only screen and (max-width:720px){
-    .homeImg{
-        position: relative;
-        top: 9%;
-        right: 2%;
-    }
-    .homeLeft{
+@media only screen and (max-width:412px){
+    .homeContainer{
+        width: 100vw;
+        height: 100vh;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
     }
 
+    .homeRight{
+        width: 100vw;  
+        height: 45vh; 
+    }
+    
+    .homeImg{
+        height: 300px;
+    }
+    .homeLeft{
+        height: 40vh;
+        width: 100vw;    
+        margin: 0;    
+    }
+    
     .introText{
-        position: absolute;
-        left: 12%;
+        line-height: 45px;
+        border: 15px solid blueviolet;
+        border-left: 0;
+        padding-top:40px;
+        padding-bottom: 30px;
+        padding-right:0px;
+        position: relative;
+        right: 6px;
     }
 }
