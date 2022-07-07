@@ -27,7 +27,7 @@ const About = () => {
               <span className="ml">Summary</span>
             </div>
             <div className="aboutSummary">
-              Hey! This is Roshan Sharma I am grateful that you visited my profile 
+              Hey! This is Vikas MIshra I am grateful that you visited my profile 
             </div>
           </div>
         </div>
